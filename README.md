@@ -106,6 +106,9 @@ demo = gr.Interface(fn=ner,
 
 demo.launch(share=True, server_port=int(os.environ['PORT4']))
 ```
+```
+gr.close_all()
+```
 
 ### OUTPUT:
 <img width="325" height="773" alt="image" src="https://github.com/user-attachments/assets/df0e6b0a-e70d-4159-bdc6-f5ca13107f1a" />
@@ -115,3 +118,4 @@ demo.launch(share=True, server_port=int(os.environ['PORT4']))
 
 
 ### RESULT:
+To develop a prototype application for Named Entity Recognition (NER) by leveraging a fine-tuned BART model and deploying the application using the Gradio framework for user interaction and evaluation excuted successfully.
