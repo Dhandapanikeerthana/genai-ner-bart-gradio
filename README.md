@@ -11,16 +11,19 @@ Named Entity Recognition (NER) is a fundamental Natural Language Processing (NLP
 ### DESIGN STEPS:
 
 #### STEP 1:
-Import the required libraries — Transformers, Torch, and Gradio.
-Load a fine-tuned transformer model (BERT/BART) for the NER task using the Hugging Face model hub.
+1.Import the required libraries — Transformers, Torch, and Gradio.
+
+2.Load a fine-tuned transformer model (BERT/BART) for the NER task using the Hugging Face model hub.
 
 #### STEP 2:
-Create a pipeline using the pipeline() function from Hugging Face to handle tokenization and entity recognition automatically.
-Define a function to process user input text and display recognized entities in a formatted structure.
+1.Create a pipeline using the pipeline() function from Hugging Face to handle tokenization and entity recognition automatically.
+
+2.Define a function to process user input text and display recognized entities in a formatted structure.
 
 #### STEP 3:
-Design an interactive interface using Gradio with appropriate input and output components.
-Launch the interface locally to test and visualize the model’s predictions on custom text inputs.
+1.Design an interactive interface using Gradio with appropriate input and output components.
+
+2.Launch the interface locally to test and visualize the model’s predictions on custom text inputs.
 
 ### PROGRAM:
 ```
